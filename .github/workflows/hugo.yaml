@@ -63,9 +63,8 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        working-directory: website
         with:
-          path: ./public
+          path: ./website/public
 
   # Deployment job
   deploy:
@@ -77,5 +76,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        working-directory: website
         uses: actions/deploy-pages@v2
