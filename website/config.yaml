@@ -1,4 +1,4 @@
-baseURL: https://luist18.github.io/
+baseURL: "/"
 languageCode: en-gb
 title: Luís Tavares' Homepage
 theme: PaperMod
