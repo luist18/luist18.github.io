@@ -45,8 +45,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Change to website directory
-        run: cd website
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
@@ -57,6 +55,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+        working-directory: website
         run: |
           hugo \
             --gc \
@@ -64,6 +63,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        working-directory: website
         with:
           path: ./public
 
@@ -77,4 +77,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        working-directory: website
         uses: actions/deploy-pages@v2
