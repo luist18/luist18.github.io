@@ -1,0 +1,76 @@
+baseURL: https://luist18.github.io/
+languageCode: en-gb
+title: Luís Tavares' Homepage
+theme: PaperMod
+
+paginate: 5
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Posts
+      url: posts/
+      weight: 1
+    - name: Search
+      url: search/
+      weight: 2
+    - name: Tags
+      url: tags/
+      weight: 3
+    - name: Resumé
+      url: /documents/cv.pdf
+      weight: 4
+
+params:
+  homeInfoParams:
+    imageUrl: "1579901621535.jpeg"
+    Title: "About me"
+    Content: >
+      - I am a software engineer keen on good and maintainable software development and complex problem-solving. Eager learner, always with an eye on new technologies.
+      
+      - 
+
+      - Working as a Backend Software Engineer @ [Unbabel](https://www.unbabel.com/).
+
+      - 
+
+      - You can get in touch with me or view my resumé through the links below.
+
+  # Social links
+  socialIcons:
+    - name: github
+      url: "https://github.com/luist18"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/luis-tavares18/"
+    - name: email
+      url: "mailto:luistavares10@outlook.pt"
+    - name: cv
+      url: /documents/cv.pdf
+
+  sectionPagesMenu: main
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
