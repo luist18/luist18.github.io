@@ -3,8 +3,6 @@ languageCode: en-gb
 title: Luís Tavares' Homepage
 theme: PaperMod
 
-googleAnalytics: G-MHJH4BCFPM
-
 paginate: 5
 enableInlineShortcodes: true
 enableRobotsTXT: true
