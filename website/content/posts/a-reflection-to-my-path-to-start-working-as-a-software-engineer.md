@@ -1,0 +1,20 @@
+---
+title: "A reflection to my path to start working as a Software Engineer"
+date: 2024-02-10
+# series: ["Research"]
+# tags: ["research", "arm", "assembly", "software", "publication", "conference"]
+author: "Luís Tavares"
+---
+
+I have been working as a backend engineer for the last few years. However, the projects I worked with were mainly in the early stages of development without frequent users getting in touch with the final product or had users interacting with it in a small and controlled environment. I spent about two and a half years working on an internal product at the university I graduated from to grade students' programming exercises. Recently, I started what I regard as my first challenging professional experience. I went from having a few dozen people using my software to an immensely larger sample. Having jumped into this environment brought me a lot of responsibility and caution in my thinking and software development process.
+
+I was used to putting the vast majority of my focus into developing good software without bothering much with users and their experience. There could be many reasons for this; I believe that I wasn't concerned with people using my software for several reasons:
+
+- I didn't particularly appreciate communicating with my software users and could have had a better communication channel. The target audience of my software was students. Teachers also used it, but their number is nearly irrelevant compared to students; their experience with the product was also utterly different from students as they had a private dashboard. Communicating with students was difficult. Most of them were not concerned about giving feedback on the product, and the Slack channel we used to gather this feedback could be empty for weeks despite efforts to collect feedback.
+- I felt I was making top-notch software. What students might think or suggest for the software I was developing was, in some part, useless to me because I thought I had already considered it and thought about my software's good and bad scenarios. This seems wrong and pictures a significant flaw I had at the time, devaluing the opinions of younger students who, in theory, were unfamiliar with software development (this might also be wrong :P).
+
+I am now working with a different target. The target audience of the software I develop no longer sits on a University campus or sizes a few dozen people. I can metaphorize this learning process with "To Whom Much is Given, Much Will Be Required.". I no longer desire to put all my efforts into software development; I want to learn the product I develop, know some of the customers using what I create, and contribute to the product apart from software development. This is a reflection I recently took and tried to understand the justification for this. The secret powder I suppose I found resides mainly in a _cliché_: enjoying your work. I have been working for not so long, but I have been enjoying my work. I feel really lucky for my conditions, spanning a very modern tech stack to an excellent company environment. Did I get it right in my first job? Of course, some people reading this might think I am foolish to make these deductions not very long after starting to work. Hopefully, in some time, I can visit this blog post and update some of the information.
+
+No job is perfect, and I had bad days in this short period. However, if we become interested and enthusiastic about our work, we are one step closer to becoming a better software engineer and contributing more to the products we develop. The main takeaway from starting a new job is that I now value the importance of a software engineer job apart from programming and developing software solutions. In a software company, software engineers should be one of the central individuals of interest.
+
+If software engineers increase their impact area, it will motivate them to learn new things, provide them with valence in areas where their opinion might be crucial, and help them create more promising product solutions.
