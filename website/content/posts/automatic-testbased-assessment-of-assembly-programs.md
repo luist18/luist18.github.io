@@ -1,9 +1,9 @@
 ---
 title: "Conference Paper: Automatic Test-Based Assessment of Assembly Programs"
-summary: My first conference paper, accepted at the ICSOFT 2023 conference in Rome, Italy.
+summary: Conference paper, accepted at the ICSOFT 2023 conference in Rome, Italy.
 date: 2023-07-13
 series: ["Research"]
-tags: ["research", "arm", "assembly", "software", "publication", "conference"]
+# tags: ["research", "arm", "assembly", "software", "publication", "conference"]
 author: "Luís Tavares"
 ---
 

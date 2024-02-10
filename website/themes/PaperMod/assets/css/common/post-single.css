@@ -407,3 +407,19 @@ img.in-text {
   display: inline;
   margin: auto;
 }
+
+.post-meta-profile {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.post-meta-profile-info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-meta-profile-info h3 {
+  color: var(--primary);
+}
