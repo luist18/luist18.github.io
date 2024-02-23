@@ -34,7 +34,7 @@
 
 .post-content {
   color: var(--content);
-  font-weight: 300;
+  text-align: justify;
 }
 
 .post-content h3,
