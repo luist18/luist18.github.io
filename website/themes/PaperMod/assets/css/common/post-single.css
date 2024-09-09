@@ -301,6 +301,18 @@
   margin-top: 56px;
 }
 
+.post-series {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.post-series li a {
+  color: var(--secondary);
+}
+
 .post-tags li {
   display: inline-block;
   margin-inline-end: 3px;
@@ -412,7 +424,7 @@ img.in-text {
 }
 
 .post-meta-profile {
-  margin-top: 5px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
 }

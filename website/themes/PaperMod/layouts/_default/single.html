@@ -3,6 +3,15 @@
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
+    {{- $series := "series" }}
+    {{- if $series }}
+    <ul class="post-series">
+      {{- range ($.GetTerms $series) }}
+      <li><a href="{{ .Permalink }}">{{ lower .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{ .Description }}
+    {{- end }}
     <h1 class="post-title">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
