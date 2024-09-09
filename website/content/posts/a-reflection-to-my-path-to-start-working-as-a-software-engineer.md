@@ -1,7 +1,7 @@
 ---
 title: "A reflection to my path to start working as a Software Engineer"
 date: 2024-02-10
-# series: ["Research"]
+series: ["growing-as-a-software-engineer"]
 # tags: ["research", "arm", "assembly", "software", "publication", "conference"]
 author: "Luís Tavares"
 ---

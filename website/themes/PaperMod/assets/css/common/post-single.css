@@ -35,6 +35,8 @@
 .post-content {
   color: var(--content);
   text-align: justify;
+  font-weight: normal;
+  font-size: 1.15rem;
 }
 
 .post-content h3,
@@ -423,4 +425,5 @@ img.in-text {
 
 .post-meta-profile-info h3 {
   color: var(--primary);
+  font-weight: 600;
 }

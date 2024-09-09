@@ -13,7 +13,7 @@ enableEmoji: true
 pygmentsUseClasses: true
 
 minify:
-    disableXML: true
+  disableXML: true
 
 menu:
   main:
@@ -23,19 +23,19 @@ menu:
     - name: Posts
       url: posts/
       weight: 1
-#    - name: Tags
-#      url: tags/
-#      weight: 3
+    #    - name: Tags
+    #      url: tags/
+    #      weight: 3
     - name: Resumé
       url: /documents/cv.pdf
       weight: 4
 
 params:
   homeInfoParams:
-    imageUrl: "1579901621535.jpeg"
+    imageUrl: "profile_picture.jpg"
     Title: "About me"
     Content: >
-      - I am a software engineer keen on good and maintainable software development and complex problem-solving. Eager learner, always with an eye on new technologies.
+      - I am a software engineer keen on good and maintainable software development and problem-solving. Eager learner, always with an eye on new technologies.
 
       - 
 
