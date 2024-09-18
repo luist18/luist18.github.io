@@ -7,7 +7,7 @@
     {{- if $series }}
     <ul class="post-series">
       {{- range ($.GetTerms $series) }}
-      <li><a href="{{ .Permalink }}">{{ lower .LinkTitle }}</a></li>
+      <li><a href="{{ .Permalink }}">#{{ lower .LinkTitle }}</a></li>
       {{- end }}
     </ul>
     {{ .Description }}
